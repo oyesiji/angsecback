@@ -65,19 +65,7 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-jar-plugin</artifactId>
-				<configuration>
-					<finalName>lagoon</finalName>
-					<outputDirectory>/tmp/</outputDirectory>
-					<archive>
-					<manifest>
-						<mainClass>com.lagoon.backend.LagoonBackendApplication</mainClass>
-					</manifest>
-				</archive>
-				</configuration>
-			</plugin>
+			
 		</plugins>
 	</build>
 
