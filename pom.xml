@@ -71,6 +71,11 @@
 				<configuration>
 					<finalName>lagoon</finalName>
 					<outputDirectory>/tmp/</outputDirectory>
+					<archive>
+					<manifest>
+						<mainClass>com.lagoon.backend.LagoonBackendApplication</mainClass>
+					</manifest>
+				</archive>
 				</configuration>
 			</plugin>
 		</plugins>
